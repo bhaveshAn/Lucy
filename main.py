@@ -8,6 +8,10 @@ app = Flask(__name__)
 def hello():
     return render_template('chat.html')
 
+@app.route("/team")
+def team():
+    return render_template('team.html')
+
 @app.route("/ask", methods=['POST'])
 def ask():
 	message = str(request.form['messageText'])

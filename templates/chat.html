@@ -64,18 +64,25 @@
     </head>
 <body>
         <div class="container background-color: rgb(255,0,255);">
-		  
             <div class="row">
-                <h3 class="text-center"><font color="white"><strong>Lucy, </strong>a personal assistant !</font></h3>
-
+                <div class="col-md-8">
+               		<a href="{{ url_for('hello') }}"><h3 class="text-center" style="font-size: 50px; font-family: Brush Script MT"><font color="white">Lucy</font></h3></a>
+		</div><br/><br/>
+		<div class="col-md-2 ">
+		  <a href="{{ url_for('team') }}" class="btn btn-primary" role="button" aria-pressed="true">Meet Our Team</a>
+		</div>
+		<div class="col-md-2 ">
+		  <a href="{{ url_for('hello') }}" class="btn btn-primary" role="button" aria-pressed="true">Login / Signup</a>
+		</div>
+            </div><br/>
+            <div class="row">
                 <div class="col-md-4 col-md-offset-4">
 				
                     <div id="chatPanel" class="panel panel-info">
                         <div class="panel-heading">
-                           
-							<strong><span class="glyphicon glyphicon-globe"></span>  Talk with Me !!</strong>
-                        
-						</div>
+                        <strong><span class="glyphicon glyphicon-globe"></span>  Talk with Me !!</strong>
+                        </div>
+
                         <div class="panel-body fixed-panel">
                             <ul class="media-list">
                             </ul>
