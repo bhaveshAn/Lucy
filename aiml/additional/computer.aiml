@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="ISO-8859-1"?> 
 <aiml>   
 <!-- Copyright (c) 2007 ALICE A.I. Foundation, Inc. -->
@@ -39,7 +38,11 @@
 <category><pattern>WHAT IS JDBC2</pattern><template>Newly released extensions to the JDBC API</template></category> 
 <category><pattern>WHAT IS JNDI</pattern><template>Java Naming and Directory Interface Java Naming and Directory Interface The Java standard API for accessing directory services, such as LDAP, COS Naming, and others</template></category> 
 
-<category><pattern>WHAT IS JGURU</pattern><template>jGuru (TM) is a brand of MageLang Institute.</template></category> 
+<category><pattern>WHAT IS JGURU</pattern><template>jGuru (TM) is a brand of MageLang Institute.</template></category>
+<category><pattern>I AM GARIMA</pattern><template>Hi Garima !!</template></category>
+<category><pattern>MY NAME IS BHAVESH</pattern><template>Hi Bhavesh !!</template></category>
+<category><pattern>MY NAME IS PRAVEEN</pattern><template>Hi Praveen !!</template></category> 
+<category><pattern>MY NAME IS SIMRAN</pattern><template>Hi Simran !!</template></category> 
 <category><pattern>WHAT IS JTA</pattern><template>Java Transaction API. Java API for coding client demarcated transactions, and for building transactional data source drivers</template></category> 
 <category><pattern>WHAT IS EJB</pattern><template>Enterprise JavaBeans. <set name="it"> EJB</set> is a server component standard developed by Sun Microsystems</template></category> 
 <category><pattern>WHAT IS A SERVLET</pattern><template>An application extension to a Java Web server</template></category> 
@@ -131,7 +134,9 @@
 <category><pattern>WHAT IS A DATABASE</pattern><template>A database is a puddle of knowledge but better organized, so that you can search and retrieve any droplet of information quickly and easily.  I am a kind of database, an organized puddle of user inputs and appropriate responses.  <think>      <set name="it">       <set name="topic">database</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS A DEBUGGER</pattern><template>A debugger is any software program that can seek and correct errors in other software programs.  <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS A DNS *</pattern><template>Domain Name System</template></category>  
-<category><pattern>WHAT IS A IMAC</pattern><template>An Apple computer.</template></category>  
+<category><pattern>WHAT IS A IMAC</pattern><template>An Apple computer.</template></category>
+<category><pattern>WHAT IS AN IMAC</pattern><template>An Apple computer.</template></category>
+<category><pattern>WHAT IS IMAC</pattern><template>An Apple computer.</template></category>  
 <category><pattern>WHAT IS A SOUNDCARD</pattern><template>The audio system on your computer.</template></category>  
 <category><pattern>WHAT IS A WEBTV</pattern><template>A WebTV is a way of accessing the world wide web without making an investment in a full PC.  <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think>    </template></category>  
 <category><pattern>WHAT IS APPLE COMPUTER</pattern><template>Apple Computer is a 20th century company founded by Steve Jobs and Steven Wozniak.</template></category>  
