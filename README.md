@@ -7,6 +7,7 @@ Added New GUI compatible with all browsers, mobiles with autoscroll
 ### Requirements
     Python >= 2.7
     Flask >= 0.10
+    Aiml ==0.8.6
 
 ## Installation
 
