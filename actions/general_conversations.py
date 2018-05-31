@@ -1,17 +1,5 @@
 import random
 
-WORDS = {'who_are_you': {'groups': [['who', 'are', 'you']]},
-         'toss_coin': {'groups': [['heads', 'tails'],
-                                  ['toss', 'coin'], ['flip', 'coin']]},
-         'how_am_i': {'groups': [['how', 'i', 'look'], ['how', 'am', 'i']]},
-         'who_am_i': {'groups': [['who', 'am', 'i']]},
-         'where_born': {'groups': [['where', 'born']]},
-         'how_are_you': {'groups': [['how', 'are', 'you']]},
-         'are_you_up': {'groups': [['you', 'up']]},
-         'love_you': {'groups': [['love', 'you']]},
-         'marry_me': {'groups': [['marry', 'me']]},
-         'undefined': {'groups': []}}
-
 
 def who_are_you(text):
     messages = ['I am Lucy , your own personal assistant.',

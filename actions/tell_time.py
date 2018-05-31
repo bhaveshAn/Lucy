@@ -1,11 +1,5 @@
 from datetime import datetime
 
-WORDS = {
-  'what_is_time': {'groups': ['time']},
-  'what_is_date': {'groups': ['date']},
-  'what_is_day': {'groups': ['day']}
-}
-
 
 def what_is_time(text):
     return ("The time is " + datetime.strftime(datetime.now(), '%H:%M:%S HOURS'))

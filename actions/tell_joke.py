@@ -7,9 +7,6 @@ import requests
 import json
 
 
-WORDS = {'tell_joke': {'groups': [['tell', 'joke']]}}
-
-
 def chuck_norris():
     while (True):
         req = requests.get('http://api.icndb.com/jokes/random')

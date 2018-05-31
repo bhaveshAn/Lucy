@@ -1,15 +1,5 @@
 import re
-
 from netifaces import interfaces, ifaddresses, AF_INET
-
-
-WORDS = {
-    'ip_address': {
-        'groups': [
-            'ip', ['ip', 'address'], ['network', 'address']
-        ]
-    }
-}
 
 
 def ip_address(text):

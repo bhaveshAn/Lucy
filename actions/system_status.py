@@ -2,19 +2,6 @@ import datetime
 import psutil
 import platform
 
-WORDS = {
-    'system_status': {
-        'groups': [
-            ['how', 'systems'],
-            ['how', 'system'],
-            'status'
-        ]
-    },
-    'system_uptime': {
-        'groups': ['uptime']
-    }
-}
-
 
 def system_status(text):
     os, name, version, _, _, _ = platform.uname()

@@ -1,9 +1,6 @@
 import re
 import wikipedia
 
-WORDS = {'define_subject': {'groups': ['define']}
-         }
-
 
 def define_subject(speech_text):
     words_of_message = speech_text.split()
