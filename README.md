@@ -1,36 +1,40 @@
 # Lucy
 
-AI Based Chatbot
-
-Added New GUI compatible with all browsers, mobiles with autoscroll
+ChatBot Based on NLP
 
 ### Requirements
-```
-    Python >= 2.7
-    Flask >= 0.10
-    Aiml == 0.8.6
-```
+
+    sudo apt-get install espeak
 
 ## Installation
 
 1. Clone and navigate to Lucy directory.
 
-2. Install the required packages.
+2. Install the required packages. 
+
+    (System Wide)
+
     ```
     sudo pip install -r requirements.txt
     ```
 
-3. Run the python server.
+    (In Virtual Environment)
     ```
-    python main.py
+    virtualenv -p python3 venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3. Run the python server.
+
+    ```
+    python3 main.py
     ```
     
-4. Open http://localhost:5000 in your browser.
+4. Open http://localhost:7001 in your browser.
 
 5. You're done and let's chat with your Robot via browser.
 
-## Screenshot
-Will be added soon.
 ## Author
 
 [Bhavesh Anand](https://github.com/bhaveshAn)
